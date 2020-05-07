@@ -30,7 +30,7 @@ body{
  }
 
  a{
-   color: #fff;
+   color: #3ae0aa;
    text-decoration: none;
  }
 img{
@@ -56,8 +56,8 @@ img{
 .name a{
   font-size: 2em;
   margin: 0;
-  text-shadow: 4px 4px 4px #3cb191;
-  font-family: 'Tangerine', cursive;
+  /* text-shadow: 4px 4px 4px #3cb191; */
+  /* font-family: 'Tangerine', cursive; */
 }
 .main-nav{
   margin-top: 5px;
@@ -117,26 +117,31 @@ body{
   flex-direction: column;
   min-height: 100vh;
 }
+.about{
+  /* padding-top: 100px; */
+  text-align: center;
+}
 
 .tertiary{
   flex: 1;
 }
-.main-nav{
-  display: none;
+
+.about-me{
+  display: flex;
+  flex-direction: column;
+  /* background: red; */
+  height: 100%;
 }
-.about{
-  padding-top: 100px;
-  text-align: center;
-}
+
+
 /* end of sticky footer */
 /* ===================================
             Media Queries
 ==================================== */
 
 @media (min-width : 768px) {
-.top li a{
-  display: none;
-}
+
+
 
 .main-header,
 .main-footer,
@@ -197,13 +202,13 @@ body{
   display: flex;
   flex-direction: row-reverse;
   background: white;
-
 }
 .about-image,
 .about{
   flex: 1;
   margin: 30px;
 }
+
 
 @media (min-width : 1024px) {
   .main-header,
@@ -219,4 +224,9 @@ body{
   .main-footer{
     border-top: solid 1px red;
   }
+  .about{
+    padding-top: 100px;
+    text-align: center;
+  }
+
 }
