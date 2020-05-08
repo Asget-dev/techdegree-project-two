@@ -75,7 +75,7 @@ img{
   text-transform: uppercase;
 }
 .main-nav a:hover{
-  color: #093a58;
+  color: #3ae0aa;
 }
 
 
@@ -98,8 +98,13 @@ img{
 }
 .main-footer{
   background: #1d3c45;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   padding: 2em 0;
+}
+
+.col {
+    margin-top: auto;
+    text-align: center;
 }
 
 .primary{
@@ -194,9 +199,15 @@ body{
   padding: 10px;
   border: solid 1px #d9e4ea;
 }
-.img-portfolio {
+.skills-img,
+.img-portfolio{
   margin-top: 5px;
   padding: 10px;
+ }
+ .skills-img{
+   margin-top: 5px;
+   width: 100%;
+   height: 100%;
  }
 .about-me{
   display: flex;
@@ -208,7 +219,9 @@ body{
   flex: 1;
   margin: 30px;
 }
-
+.main-header{
+  background: #895a5a;
+}
 
 @media (min-width : 1024px) {
   .main-header,
@@ -220,9 +233,6 @@ body{
   }
   .main-header{
     background: #1d3c45;
-  }
-  .main-footer{
-    border-top: solid 1px red;
   }
   .about{
     padding-top: 100px;
